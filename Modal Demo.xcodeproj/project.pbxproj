@@ -21,6 +21,7 @@
 		84622FDD187F81020008155B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84622FBF187F81020008155B /* UIKit.framework */; };
 		84622FE5187F81020008155B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84622FE3187F81020008155B /* InfoPlist.strings */; };
 		84622FE7187F81020008155B /* Modal_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84622FE6187F81020008155B /* Modal_DemoTests.m */; };
+		84622FF2187F82050008155B /* MyPopSeque.m in Sources */ = {isa = PBXBuildFile; fileRef = 84622FF1187F82050008155B /* MyPopSeque.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		84622FE2187F81020008155B /* Modal DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Modal DemoTests-Info.plist"; sourceTree = "<group>"; };
 		84622FE4187F81020008155B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84622FE6187F81020008155B /* Modal_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Modal_DemoTests.m; sourceTree = "<group>"; };
+		84622FF0187F82050008155B /* MyPopSeque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPopSeque.h; sourceTree = "<group>"; };
+		84622FF1187F82050008155B /* MyPopSeque.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPopSeque.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				84622FD1187F81020008155B /* MyViewController.m */,
 				84622FD3187F81020008155B /* Images.xcassets */,
 				84622FC2187F81020008155B /* Supporting Files */,
+				84622FF0187F82050008155B /* MyPopSeque.h */,
+				84622FF1187F82050008155B /* MyPopSeque.m */,
 			);
 			path = "Modal Demo";
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 				84622FD2187F81020008155B /* MyViewController.m in Sources */,
 				84622FCC187F81020008155B /* MyAppDelegate.m in Sources */,
 				84622FC8187F81020008155B /* main.m in Sources */,
+				84622FF2187F82050008155B /* MyPopSeque.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
